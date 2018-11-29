@@ -5,11 +5,36 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <br> <br> <br> 
+
+    <img class=logo src="https://i.ibb.co/WHXC9dD/2blog.png"> <br> 
+  
+  <!-- Ingresar texto -->
+   <textarea placeholder="Escribe Aquí el Texto que quieras Cifrar o Decifrar" id="message" rows="2" cols="60"> </textarea><br>
+
+    <p>Nivel de Seguridad</p>
+
+<!-- Ingresar nivel de cifrado-->
+    <p><textarea id="spaces" rows="2" cols="5"> </textarea></p>
+
+<!-- Botones -->
+    <button onclick="cipher()">CIFRAR</button>
+    <button onclick="decipher()">DESCIFRAR</button><br><br><br>
+
+  <h2 id="result"></h2>
+  
+    Link para  <a href="https://www.google.com">Ocultar</a>
+  
+
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1></h1>
     </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>
+
