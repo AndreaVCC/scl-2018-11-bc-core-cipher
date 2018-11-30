@@ -1,13 +1,16 @@
-/* aqui va el manejo del DOM*/
+document.getElementById("cifrar").addEventListener("click",() => {
+    let offset = parseInt(document.getElementById("nivel").value);
+    let string = (document.getElementById("txto").value);
+    document.getElementById("resultC").innerHTML = "Mensaje cifrado: " + cipher.encode(offset, string);
+})
 
-const root = document.getElementById('root');
+document.getElementById("descifrar").addEventListener("click", () => {
+    let offset = parseInt(document.getElementById("nivel").value);
+    let string = (document.getElementById("txto").value);
+    document.getElementById("resultC").innerHTML = "Mensaje descifrado: " + cipher.decode(offset, string);
+})
 
 
-//ejm 
-//let string ='ale';
-//let offset = 3;
-
-root.innerHTML = cipher.encode(strng, offset)
 
 
-//root2.innerHTML = cipher.deencode(strng, offset)
+
