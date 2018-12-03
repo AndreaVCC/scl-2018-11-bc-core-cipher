@@ -1,5 +1,6 @@
   <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
@@ -11,20 +12,18 @@
 
     <img class=logo src="https://i.ibb.co/WHXC9dD/2blog.png"><br> 
   
-  <!-- Ingresar texto -->
-  <textarea placeholder="Escribe Aquí el Texto que quieras Cifrar o Decifrar" id="txto" rows="2" cols="60"> Reemplaza este texto por lo que deseas cifrar o descifrar </textarea><br><br>
-  
-   
+ <!-- Ingresar texto -->
+  <textarea id="txto" rows="2" cols="60"> Reemplaza este texto por lo que deseas cifrar o descifrar </textarea><br><br>
     
 <!-- Ingresar nivel de cifrado-->
-    Ingresa el nivel de seguridad en números<br><textarea id="nivel" rows="1" cols="4">1 </textarea>
+    Ingresa el nivel de seguridad en números<br><textarea id="displacement" rows="1" cols="4">1 </textarea>
      <img class="candado" src="https://i.ibb.co/8rWKmKb/images.png"><br><br>
     
-
 <!-- Botones -->
-    
-    <button id="cifrar">CIFRAR</button>
-    <button id="descifrar">DESCIFRAR</button><br>
+    <button id="codee">CIFRAR</button> 
+    <button id="decipher">DESCIFRAR</button><br>
+
+<!-- Resultado Cifrado y Descifrado-->
 
   <h2 id="resultC"></h2>
 
@@ -32,12 +31,8 @@
   <br>  Link para  <a href="https://www.google.com">Ocultar</a>
   
 
-    <div id="root">
-      <h1></h1>
-    </div>
-
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 
   </body>
 </html>

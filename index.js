@@ -1,13 +1,13 @@
-document.getElementById("cifrar").addEventListener("click",() => {
-    let offset = parseInt(document.getElementById("nivel").value);
+document.getElementById("codee").addEventListener("click",() => {
+    let offset = parseInt(document.getElementById("displacement").value);
     let string = (document.getElementById("txto").value);
-    document.getElementById("resultC").innerHTML = "Mensaje cifrado: " + cipher.encode(offset, string);
+    document.getElementById("resultC").innerHTML = "Mensaje Cifrado: " + cipher.encode(offset, string);
 })
 
-document.getElementById("descifrar").addEventListener("click", () => {
-    let offset = parseInt(document.getElementById("nivel").value);
+document.getElementById("decipher").addEventListener("click", () => {
+    let offset = parseInt(document.getElementById("displacement").value);
     let string = (document.getElementById("txto").value);
-    document.getElementById("resultC").innerHTML = "Mensaje descifrado: " + cipher.decode(offset, string);
+    document.getElementById("resultC").innerHTML = "Mensaje Descifrado: " + cipher.decode(offset, string);
 })
 
 

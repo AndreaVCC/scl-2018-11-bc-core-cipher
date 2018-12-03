@@ -1,6 +1,7 @@
 body {
     text-align: center; 
     }
+    
 .candado{
     width:50px;
     height:29px;
@@ -12,7 +13,7 @@ button {
 
 #resultC {
   border : 1px groove;
-  font-size: 12px;
+  font-size: 20px;
   display: inline-block;
   padding : 1em;
   width: 25%;
