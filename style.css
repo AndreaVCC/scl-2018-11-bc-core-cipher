@@ -1,11 +1,16 @@
 body {
-    text-align: center; 
-    }
+  text-align: center; 
+}
+
+.logo {    
+  width: 50%; 
+  height: auto;  /* Ajustar logo a pantaña mas pequeña */
+}
     
 .candado{
-    width:50px;
-    height:29px;
-   } 
+  width:50px;
+  height:29px;
+} 
 
 #resultC {
   border : 1px groove;
@@ -15,3 +20,5 @@ body {
   width: 25%;
   height: 50%;
 }
+
+
