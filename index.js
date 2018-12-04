@@ -1,13 +1,3 @@
-
-// A $( document ).ready() block.
-
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-    
-
-
-
 document.getElementById("codee").addEventListener("click",() => {
     let offset = parseInt(document.getElementById("displacement").value);
     let string = (document.getElementById("txto").value);
@@ -23,6 +13,6 @@ document.getElementById("decipher").addEventListener("click", () => {
 
 
 
-// Obtener el modal
+// Obtener el modal (ocultar para pasar test)
 var modal = document.getElementById('id01');
 
