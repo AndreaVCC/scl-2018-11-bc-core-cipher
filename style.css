@@ -1,15 +1,21 @@
-body {
+
+.contenedor {
   text-align: center; 
 }
 
 .logo {    
   width: 50%; 
-  height: auto;  /* Ajustar logo a pantaña mas pequeña */
+  height: auto;  /* Ajustar logo a pantalla mas pequeña */
 }
-    
+
+#info{
+  width:20px;
+  height:20px;
+}
+
 .candado{
-  width:50px;
-  height:29px;
+  width:40px;
+  height:20px;
 } 
 
 #resultC {
@@ -17,8 +23,7 @@ body {
   font-size: 20px;
   display: inline-block;
   padding : 1em;
-  width: 25%;
-  height: 50%;
+  width: 30%;
+  height: auto;
 }
-
 

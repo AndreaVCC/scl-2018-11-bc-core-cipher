@@ -70,4 +70,12 @@ let codeAscii = string.charCodeAt(i); //codigo ascii
 
 
 
- 
+// al hacer click en cualquier lugar fuera de la ventana se cerrara la ventana
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+

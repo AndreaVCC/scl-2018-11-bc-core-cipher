@@ -5,25 +5,44 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- Estilo del Modal-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+
   </head>
 
   <body>
-    <br> <br> 
+       
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Instrucciones</button>
+
 
 <div class="contenedor">
 
     <img class="logo" src="https://i.ibb.co/WHXC9dD/2blog.png"><br> 
   
     <!-- Ingresar texto -->
-     <textarea id="txto" rows="2" cols="60"> Reemplaza este texto por lo que deseas cifrar o descifrar </textarea><br><br>
+     <textarea id="txto" rows="2" cols="60" placeholder="Ingresa el texto que quieres cifrar o descifrar"></textarea> </textarea><br><br>
     
     <!-- Ingresar nivel de cifrado-->
-    Ingresa el nivel de seguridad en números<br><textarea id="displacement" rows="1" cols="4">1 </textarea>
-    <img class="candado" src="https://i.ibb.co/8rWKmKb/images.png"><br><br>
+    Ingresa el nivel de seguridad en números 
+
     
+    <img id="info" src="https://i.ibb.co/BL9wkwm/kisspng-question-mark-computer-icons-information-clip-art-question-5abdf8a2597a36-5086530115223993943665.png" 
+     data-toggle="tooltip" data-placement="right"title="Ingresa sólo números">   
+ 
+
+   <br><textarea id="displacement" rows="1" cols="4">1 </textarea>
+    <br><img class="candado" src="https://i.ibb.co/8rWKmKb/images.png"> <br><br>
+    
+ 
+
+
     <!-- Botones -->
+    
+    <div id= "boton">
     <button id="codee">CIFRAR</button> 
     <button id="decipher">DESCIFRAR</button><br>
+    </div>
 
     <!-- Resultado Cifrado y Descifrado-->
 
@@ -33,6 +52,33 @@
 
 </div>
   
+
+<div id="id01" class="w3-modal">
+
+  <div class="w3-modal-content w3-card-4"> <!-- ventanita emergente -->
+
+    <header class="w3-container w3-blue">   <!-- Color azul de encabezado -->
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-button w3-display-topright">&times;</span> <!-- x para cerrar a la derecha -->
+      <h2>Cifrado Cesar</h2>
+    </header>
+
+    <div class="w3-container">
+      <p>Imagina que estás en tu trabajo o lugar de estudios y tienes que enviar un mensaje cifrado sin usar las típicas aplicaciones de mensajería para no llamar la atención. 
+        Para ello usa la siguiente aplicación y realiza las siguientes acciones:</p>
+        <p>-Escribe tu mensaje.</p>
+          <p>-Otórgale el nivel de cifrado (en números).</p>
+            <p>-Cifra tu mensaje.</p>
+              <p>-Cópialo y envíalo a la persona que quieras.</p>
+        
+    </div>
+
+ </div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
