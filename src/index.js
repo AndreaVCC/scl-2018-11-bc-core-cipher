@@ -13,6 +13,4 @@ document.getElementById("decipher").addEventListener("click", () => {
 
 
 
-// Obtener el modal (ocultar para pasar test)
-var modal = document.getElementById('id01');
 
