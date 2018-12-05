@@ -15,7 +15,6 @@
        
 <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Instrucciones</button>
 
-
 <div class="contenedor">
 
     <img class="logo" src="https://i.ibb.co/WHXC9dD/2blog.png"><br> 
@@ -24,11 +23,11 @@
      <textarea id="txto" rows="2" cols="60" placeholder="Ingresa el texto que quieres cifrar o descifrar"></textarea> <br><br>
     
     <!-- Ingresar nivel de cifrado-->
-    Ingresa el nivel de seguridad en números 
+    Ingresa el nivel de desplazamiento:
 
     
     <img id="info" src="https://i.ibb.co/BL9wkwm/kisspng-question-mark-computer-icons-information-clip-art-question-5abdf8a2597a36-5086530115223993943665.png" 
-    title="Ingresa sólo números">   
+    title="Mientra más alto el numero más seguridad">   
  
 
    <br><textarea id="displacement" rows="1" cols="4">1 </textarea>
@@ -39,10 +38,10 @@
 
     <!-- Botones -->
     
-    <div id= "boton">
-    <button id="codee">CIFRAR</button> 
-    <button id="decipher">DESCIFRAR</button><br>
-    </div>
+    
+    <button class="code" id="codee">C I F R A R</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="deci" id="decipher">D E S C I F R A R</button> <br>
+    
 
     <!-- Resultado Cifrado y Descifrado-->
 
@@ -60,19 +59,19 @@
     <header class="w3-container w3-blue">   <!-- Color azul de encabezado -->
       <span onclick="document.getElementById('id01').style.display='none'" 
       class="w3-button w3-display-topright">&times;</span> <!-- x para cerrar a la derecha -->
-      <h2>Cifrado Cesar</h2>
+      <h2>Cifrado Coodgle</h2>
     </header>
 
     <div class="w3-container">
       <p>Imagina que estás en tu trabajo o lugar de estudios y tienes que enviar un mensaje cifrado sin usar las típicas aplicaciones de mensajería para no llamar la atención. 
         Para ello usa la siguiente aplicación y realiza las siguientes acciones:</p>
-        <p>-Escribe tu mensaje.</p>
-          <p>-Otórgale el nivel de cifrado (en números).</p>
-            <p>-Cifra tu mensaje.</p>
-              <p>-Cópialo y envíalo a la persona que quieras.</p>
-        
+      <p>-Escribe tu mensaje.</p>
+      <p>-Elige cuantos espacios se movera tu letra para cifrarla. Ejemplo: </p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;Si Tu mensaje dice: ABC y eliges 1 espacio a desplazar, todas las letras se moveran un espacio y tu mensaje Cifrado será BCD .</p>
+      <p>-Cifra tu mensaje.</p>
+      <p>-Cópialo y envíalo a la persona que quieras.</p>
     </div>
-
+    
  </div>
 </div>
 
@@ -82,6 +81,7 @@
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
+  <script src="modal.js"></script>
 
   </body>
 </html>
