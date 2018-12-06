@@ -3,12 +3,12 @@
 La siguiente aplicación tiene como objetivo principal que el usuario logre enviar o recibir mensajes codificados con el método del **Cifrado César** o también conocido como **Cifrado por desplazamiento**.
 ![enter image description here](https://i.ibb.co/WHXC9dD/2blog.png)
 
-
 Esta es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra en otra posición del alfabeto, Por ejemplo:
 
-		Si el Mensaje ingresado por el usuario es: "ABC"
-			El nivel de desplazamiento elegido es: 1 
-			 Entonces el mensaje cifrado será: "BCD"
+		Si el Mensaje ingresado por el usuario es: "ABC"                    		Si el Mensaje ingresado por el usuario es: "ABC"             
+		El nivel de desplazamiento elegido es: 1                                El nivel de desplazamiento elegido es: 2 
+		Entonces el mensaje cifrado será: "BCD"                                 Entonces el mensaje cifrado será: "CDE"    
+
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
