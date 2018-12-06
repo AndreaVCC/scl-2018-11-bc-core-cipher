@@ -1,3 +1,16 @@
+# PROYECTO CIFRADO CESAR
+
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+![enter image description here](https://i.ibb.co/WHXC9dD/2blog.png)
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -17,25 +30,16 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 ## Resumen del proyecto
 
-¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de ejemplo:
-
-- Crear claves seguras para el email.
-- Encriptar/cifrar una tarjeta de crédito.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+-
+-
+-
 
 
 ## Consideraciones generales
 
-- Este proyecto se debe resolver de manera individual.
-- El proyecto será entregado subiendo tu código a GitHub (commit/push) y la interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-- Tiempo para completarlo: El proyecto dura 2 semanas, trabaja con sprints y planificando tus tareas.
+--
 
 ## Objetivos de aprendizaje
-
-En este proyecto aprenderás a construir una aplicación web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, aprenderás a:
 
 - Pintar elementos de formulario en la pantalla usando **HTML** y **CSS**.
 - Permitir al usuario interactuar (**eventos del DOM**) y hacer algo cuando ocurran dichos eventos (cifrar/descifrar).
@@ -48,22 +52,16 @@ En este proyecto aprenderás a construir una aplicación web que interactúe con
 - Organizar tu tiempo y priorizar tareas en un entorno de **alta incertidumbre**.
 
 ## Parte Obligatoria
-
-Usa este alfabeto simple (solamente mayúsculas y sin ñ):
-
-- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+-
+-
 
 #### Definición del producto
-
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
+-
+-
 
 #### Interfaz de usuario (UI)
 
-La interfaz debe permitir al usuario:
+La interfaz permite al usuario:
 - Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
 - Insertar un mensaje (texto) que queremos cifrar.
 - Ver el resultado del mensaje cifrado.
@@ -95,10 +93,6 @@ La interfaz debe permitir al usuario:
 
 Las secciones llamadas “Hacker Edition” son opcionales. Si **terminaste** con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás profundizar y/o ejercitar más sobre los objetivos de aprendizaje del proyecto.
 
-La descripción general de este proyecto no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El boilerplate incluye algunos tests (comentados en principio) que puedes usar como punto de partida para implementar el soporte para estos casos.
-
-Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del hacker edition te invitamos a explorar también esta caso por tu cuenta.
-
 ## Vamos a los detalles. Consideraciones Técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
@@ -113,43 +107,6 @@ setup y configuración necesaria para ejecutar los tests (pruebas) así como _co
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
 
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene el _boilerplate_.
-
-El _boilerplate_ contiene una estructura de archivos como punto de partida así
-como toda la configuración de dependencias y tests de ejemplo:
-
-```text
-./
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── cipher.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── cipher.spec.js
-    ├── headless.js
-    └── index.html
-```
-
-El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
-`JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
-configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
-
 ## Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
@@ -160,19 +117,6 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 | Característica/Habilidad |
 |--------------------------|
 | Completitud |
-
-### Habilidades Blandas
-
-| Habilidad |
-|-----------|
-| Planificación y organización |
-| Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
-| Presentaciones |
 
 ### Habilidades Técnicas Front-end
 
@@ -231,10 +175,6 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 7. A codear se ha dicho! :rocket:
 
 ## Recursos y temas relacionados
-
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
