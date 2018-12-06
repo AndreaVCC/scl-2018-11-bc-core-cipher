@@ -1,4 +1,11 @@
 
+/*
+              * --> selecor universal
+              . --> class
+              # --> id
+*/
+
+
 .contenedor {
   text-align: center; 
 }
@@ -33,7 +40,7 @@
   font-size: 16px;
   margin: 3px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
   cursor: pointer;
 }
 .code:hover {
@@ -54,7 +61,7 @@
   font-size: 16px;
   margin: 3px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
   cursor: pointer;
 }
 .deci:hover {
