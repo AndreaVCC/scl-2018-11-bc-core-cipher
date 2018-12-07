@@ -29,7 +29,7 @@ Para que el usuario pase desapercibido a la hora de usar la aplicación de mensa
 
 Se realiza un sketch del primer modelo, basándose en la interfaz de un buscador muy conocido para que así no llame la atención cuando se esté ejecutando.
 
-IMAGEN
+![Primer Sketch](https://i.ibb.co/nn3JB2g/1.png)
 
 Luego de recibir diferentes feedback se modifica el diseño y se realiza el prototipo en un programa gráfico (Adobe Photoshop).
 
