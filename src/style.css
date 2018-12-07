@@ -11,7 +11,7 @@
 }
 
 .logo {    
-  width: 50%; 
+  width: 60%; 
   height: auto;  /* Ajustar logo a pantalla mas pequeña */
 }
 
@@ -26,54 +26,47 @@
 } 
 
 .code {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
-  background-color: rgb(231, 229, 229);
+  
   border-radius:20px; 
   border: none;
   color: rgb(73, 73, 73);
   padding: 9px 50px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 3px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.2s;
   cursor: pointer;
+  height: auto;
 }
 .code:hover {
   background-color: #f7f2f2;}
 
 .deci {
-  background-color: white;
-  color: black;
-  border: 2px solid #e7e7e7;
-  background-color: rgb(231, 229, 229);
   border-radius:20px; 
-  border: none;
+  border: rgb(0, 0, 0);
   color: rgb(73, 73, 73);
   padding: 9px 32px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 3px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.2s;
   cursor: pointer;
+  height: auto;
 }
 .deci:hover {
   background-color: #f7f2f2;}
 
 
 #resultC {
-  border : 1px groove;
-  font-size: 20px;
+   
+  border : 2px groove;
+  font-size: 15px;
   display: inline-block;
   padding : 1em;
   width: 30%;
   height: auto;
+  
 }
 
