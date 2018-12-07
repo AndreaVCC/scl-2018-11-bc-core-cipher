@@ -5,11 +5,16 @@ La siguiente aplicación tiene como objetivo principal que el usuario logre envi
 
 Esta es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra en otra posición del alfabeto, Por ejemplo:
 
-    Si el Mensaje ingresado por el usuario es: "ABC"      Si el Mensaje ingresado por el usuario es: "ABC"             
-    El nivel de desplazamiento elegido es: 1              El nivel de desplazamiento elegido es: 2
-    Entonces el mensaje cifrado será: "BCD"               Entonces el mensaje cifrado será: "CDE"    
+    Si el Mensaje ingresado por el usuario es: "ABC"    Si el Mensaje ingresado por el usuario es: "ABC"             
+    El nivel de desplazamiento elegido es: 1            El nivel de desplazamiento elegido es: 2
+    Entonces el mensaje cifrado será: "BCD"             Entonces el mensaje cifrado será: "CDE"    
 
 En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+
+## INSTALACIÓN
+
+Podras acceder a la aplicacion mediante el siguiente link:
+INGRESAR LINK
 
 ## PROCESO DE DISEÑO
 
@@ -40,14 +45,18 @@ Luego de diferentes modificaciones el prototipo final es el siguiente:
 ![Primer Sketch gráfico](http://subirimagen.me/uploads/20181206195609.png)
 
 El diseño  final posee:
--Un botón “Instrucciones” que se abrirá al darle clic y el usuario podrá leer y aclarar la funcionalidad de la página. La ventana podrá cerrarse dándole clic en una “x” o en cualquier lugar fuera de la ventana.
 
--Icono de interrogación para recordarle al usuario que solo use números en el nivel de desplazamiento.
+- Un botón “Instrucciones” que se abrirá al darle clic y el usuario podrá leer y aclarar la funcionalidad de la página. La ventana podrá cerrarse dándole clic en una “x” o en cualquier lugar fuera de la ventana para facilitar el cierre de ésta.
 
--Un link para ocultar que va a direccionar a la página similar.
+- Icono de interrogación para recordarle al usuario que solo use números en el nivel de desplazamiento.
+
+- Dos botones, uno para el cifrado y otro para el descifrado, ambos cambian de color al posicionarse sobre ellos, para ser más interactivos.
+
+- Un link para ocultar que va a direccionar a la página similar.
 
 
 Prototipos de otros diseños (Aún solo ideas para seguir mejorando y agregando )
+INGRESAR IMAGEN
 
 
 ### **Testeo con usuarios**
@@ -70,12 +79,6 @@ Al testearlo con diferentes personas pude entender ciertos problemas que se gene
 
 Yo como trabajador de oficina y estudiante deseo poder enviar mensajes cifrados de forma rápida, fácil y segura sin la necesidad de abrir aplicaciones conocidas que puedan llamar la atención desde mis dispositivos, usando diseños similares a páginas o buscadores cotidianos y así pasar lo más inadvertido posible a la hora de enviar un mensaje.
 
-## Organizacion del proyecto:
+## ORGANIZACIÓN DEL PROYECTO:
 
 Tablero trello: https://trello.com/b/YmFUplXP/proyecto-1
-
-
-### Parte Opcional: "Hacker edition"
-* [ ] 
-* [ ] 
-* [ ] 
