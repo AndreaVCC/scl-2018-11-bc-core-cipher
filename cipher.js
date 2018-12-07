@@ -8,6 +8,10 @@ window.cipher = {
   let resultC = "";
   
   for (let i = 0; i < string.length; i++){
+    if (string === "ñ" || string === "Ñ"){ //si la palabra tiene una Ñ o ñ se suma antes de pasar a trans a ascii
+      resultC+=string
+    }
+
   let codeAscii = string.charCodeAt(i); //obtener codigo ascii
     
 
@@ -50,6 +54,9 @@ decode: (offset, string) => {
 let resultC ="";
          
 for (let i = 0; i < string.length; i++){
+  if (string === "ñ" || string === "Ñ"){ //si la palabra tiene una Ñ o ñ se suma antes de pasar a trans a ascii
+    resultC+=string
+  }
 let codeAscii = string.charCodeAt(i); //codigo ascii
     
     if (codeAscii >=65 && codeAscii <=90){ //si el codigo va de 65 a 90 es mayuscula y se continua y crea una variable
