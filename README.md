@@ -14,7 +14,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 ## INSTALACIÓN
 
 Podras acceder a la aplicacion mediante el siguiente link:
-INGRESAR LINK
+
 
 ## PROCESO DE DISEÑO
 
@@ -56,7 +56,7 @@ El diseño  final posee:
 
 
 Prototipos de otros diseños (Aún solo ideas para seguir mejorando y agregando )
-INGRESAR IMAGEN
+![enter image description here](http://subirimagen.me/uploads/20181206223610.pngINGRESAR) 
 
 
 ### **Testeo con usuarios**
