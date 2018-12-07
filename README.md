@@ -1,7 +1,7 @@
 # PROYECTO: CIFRADO CÉSAR
 
 La siguiente aplicación tiene como objetivo principal que el usuario logre enviar o recibir mensajes codificados con el método del **Cifrado César** o también conocido como **Cifrado por desplazamiento**.
-![enter image description here](https://i.ibb.co/WHXC9dD/2blog.png)
+![enter image description here](http://subirimagen.me/uploads/20181206200905.png)
 
 Esta es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra en otra posición del alfabeto, Por ejemplo:
 
