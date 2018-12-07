@@ -29,12 +29,11 @@ Para que el usuario pase desapercibido a la hora de usar la aplicación de mensa
 
 Se realiza un sketch del primer modelo, basándose en la interfaz de un buscador muy conocido para que así no llame la atención cuando se esté ejecutando.
 
-![Primer Sketch](http://subirimagen.me/uploads/20181206191033.png)
+![Primer Sketch papel](http://subirimagen.me/uploads/20181206191033.png)
 
 Luego de recibir diferentes feedback se modifica el diseño y se realiza el prototipo en un programa gráfico (Adobe Photoshop).
 
-IMAGEN
-
+![Primer Sketch gráfico](http://subirimagen.me/uploads/20181206191533.jpg)
 
 Luego de diferentes modificaciones el prototipo final es el siguiente:
 
