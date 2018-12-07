@@ -15,6 +15,8 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 Podras acceder a la aplicacion mediante el siguiente link:
 
+https://andreavcc.github.io/scl-2018-11-bc-core-cipher/
+
 
 ## PROCESO DE DISEÑO
 
