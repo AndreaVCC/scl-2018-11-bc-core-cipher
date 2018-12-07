@@ -56,7 +56,8 @@ El diseño  final posee:
 
 
 Prototipos de otros diseños (Aún solo ideas para seguir mejorando y agregando )
-![enter image description here](http://subirimagen.me/uploads/20181206223610.pngINGRESAR) 
+![enter image description here](http://subirimagen.me/uploads/20181206223610.png) 
+AGG IMAGEN
 
 
 ### **Testeo con usuarios**
