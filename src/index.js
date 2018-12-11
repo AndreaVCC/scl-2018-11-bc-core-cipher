@@ -1,7 +1,8 @@
 document.getElementById("codee").addEventListener("click",() => {
     let offset = parseInt(document.getElementById("displacement").value);
     let string = (document.getElementById("txto").value);
-    document.getElementById("resultC").innerHTML = "Mensaje Cifrado: " + cipher.encode(offset, string);
+    document.getElementById("resultB").innerHTML = "Mensaje Cifrado:"
+    document.getElementById("resultC").innerHTML = cipher.encode(offset, string);
 })
 
 
@@ -9,10 +10,7 @@ document.getElementById("codee").addEventListener("click",() => {
 document.getElementById("decipher").addEventListener("click", () => {
     let offset = parseInt(document.getElementById("displacement").value);
     let string = (document.getElementById("txto").value);
-    document.getElementById("resultC").innerHTML = "Mensaje Descifrado: " + cipher.decode(offset, string);
-})
-
-
-
-
+    document.getElementById("resultB").innerHTML = "Mensaje Descifrado:"
+    document.getElementById("resultC").innerHTML = cipher.decode(offset, string);
+});
 
