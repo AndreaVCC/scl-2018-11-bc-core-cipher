@@ -14,3 +14,19 @@ document.getElementById("decipher").addEventListener("click", () => {
     document.getElementById("resultC").innerHTML = cipher.decode(offset, string);
 });
 
+
+
+// Establecemos las variables poder copiar portapapeles
+
+
+let textarea = document.getElementById("resultC"); //resultado cifrado y descifrado
+let copy   = document.getElementById("copiador"); //boton copiar
+copy.addEventListener('click', function(e) {
+   
+    // Sleccionando el texto
+   textarea.select();
+   
+       // Copiando el texto seleccionado
+       var successful = document.execCommand('copy');
+   }
+);
